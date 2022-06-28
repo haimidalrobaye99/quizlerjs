@@ -30,23 +30,23 @@ build an application.
 
 ## ChooseRandom Tasks
 ---
-- [ ] Implement ```chooseRandom``` function
-- [ ] Should take 2 parameters, ```array``` and ```numItems```
-- [ ] ```array``` should default to an empty array
-- [ ] If ```array``` has length 0 or 1, then simply return it
-- [ ] ```numItems``` must be checked to ensure it is a number in the range 1 to ```array.length``` (inclusive)
-- [ ] If ```numItems``` is outside of the correct range, then it should be set to a random number within the correct range
-- [ ] Should always return an array
-- [ ] Should not mutate the array passed in
-- [ ] Should return a random array if possible (size > 1)
-- [ ] Should return an array of the passed in length
-- [ ] Run command ```npm test``` and ensure all tests for chooseRandom pass successfully
+- [x] Implement ```chooseRandom``` function
+- [x] Should take 2 parameters, ```array``` and ```numItems```
+- [x] ```array``` should default to an empty array
+- [x] If ```array``` has length 0 or 1, then simply return it
+- [x] ```numItems``` must be checked to ensure it is a number in the range 1 to ```array.length``` (inclusive)
+- [x] If ```numItems``` is outside of the correct range, then it should be set to a random number within the correct range
+- [x] Should always return an array
+- [x] Should not mutate the array passed in
+- [x] Should return a random array if possible (size > 1)
+- [x] Should return an array of the passed in length
+- [x] Run command ```npm test``` and ensure all tests for chooseRandom pass successfully
 
 ## CreatePrompt & CreateQuestions Tasks
 ---
-- [ ] Implement ```createPrompt``` using the given format below and the given test cases
-- [ ] Implement the ```createQuestions``` function based on the format below and provided tests
-- [ ] Ensure all tests for createPrompt & createQuestions are passing when you run the ```npm test``` command
+- [x] Implement ```createPrompt``` using the given format below and the given test cases
+- [x] Implement the ```createQuestions``` function based on the format below and provided tests
+- [x] Ensure all tests for createPrompt & createQuestions are passing when you run the ```npm test``` command
 
 ### CreatePrompt Format
 
