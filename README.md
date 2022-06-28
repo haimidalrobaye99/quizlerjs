@@ -173,15 +173,3 @@ Result:
   }
 ]
 ```
-
-
-## Extra Tasks
----
-Below is a list of extra tasks for students who complete the assignment early and want to attempt more difficult challenges:
-
-- [ ] Refactor your createQuestions function to create questions with some kind of unique identifiers
-- [ ] Refactor createQuestions to also create an answer bank object when creating the questions
-- [ ] Save the answer bank to a separate file which corresponds to each quiz file. Or save them in the same file within one object with two keys: 'quiz' and 'answers'
-- [ ] Add a command to your command line application which can grade the answers after a user has taken a quiz
-- [ ] Refactor take quiz command so that it automatically grades responses and gives the user their grade upon completion of a quiz
-- [ ] Add auto-completion functionality for each command. For example, typing take and hitting tab would list the available quizzes a user could take
